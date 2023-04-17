@@ -1,5 +1,2 @@
-function createcard(title, content, date) {
-    let card = document.createElement('div');
-    card.className = "card";
-    
-}
+fetch("https://opentdb.com/api.php?amount=10")
+.then()
